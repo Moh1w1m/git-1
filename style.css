@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url('./images/header-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #4e9f0d;
+    padding: 5px 20px;
+    border: 3px solid #62be19;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+.nav-link {
+    color: #62be19;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 40px;
+    transition: 0.5s all;
+}
+,.nav-link {
+    padding: 40px;
+    background-color: #62be19;
+    color: white;
+}
+
+.header-content   .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.header-tittle {
+    color: #62be19;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    margin-top: 30px;
+    color: #62be19;
+    font-size: 36px;
+}
+.header-text {
+    color: #dedede;
+    font-size: 18px;
+    padding: 60px 0 75px;
+}
+.header-info {
+    width: 35%;
+    text-align: center;
+    color: white;
+    font-style: 50px;
+    padding: 30px 90px;
+    background-color: rgb(106, 207, 23, 0.75);
+}
+.burger-section {
+    padding: 20px 0;
+    background-color: black;
+}
+.burger-section .container-list {
+    display: flex;
+}
+.burger-section .cetgory-list li a {
+    margin-right: 30px;
+    color: #7A7A7A;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.5s all;
+}
+
+.burger-section .cetgory-list li a:hover {
+    color: #62be19;
+}
+  
